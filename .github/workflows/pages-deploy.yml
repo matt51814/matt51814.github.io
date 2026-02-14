@@ -39,6 +39,9 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
 
+      - name: Install glib2.0 development package
+        run: sudo apt-get update && sudo apt-get install -y libglib2.0-dev
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
