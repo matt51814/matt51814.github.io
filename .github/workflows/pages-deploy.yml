@@ -39,11 +39,6 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
 
-      - name: Install dependencies for mathematical gem
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y build-essential libglib2.0-dev libglib2.0-0
-
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
