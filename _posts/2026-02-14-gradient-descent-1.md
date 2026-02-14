@@ -12,15 +12,15 @@ Let's begin with vanilla Gradient Descent. The essence (if you pardon the pun) o
 
 Let's assume the function is differentiable and convex, that is, let's assume we can calculate the derivative of the function at any point and that a line drawn between any two points on it's graph lies on or above the graph. 
 
-An example of a single variable function that satisfies these criteria would be
+An example of a single variable function that satisfies these criteria would be\
 $$f(x)=x^2$$
-This is differentiable $\forall x \in \mathbb{R}$ with
+This is differentiable $\forall x \in \mathbb{R}$ with\
 $$f'(x) = 2x$$
-and also convex as
+and also convex as\
 $$f''(x) = 2 \geq 0$$
 We can use this function to demonstrate Gradient Descent.
 
-The update equation:
+The update equation:\
 $$x_{t+1} = x_{t} - \eta f'(x_t)$$
 
 Shows how one would use gradient descent in order to approach the minimum value of a function. Given a random point $x_t$ and a learning rate $\eta$ one can use the information gained from calculating the derivative in order to traverse the function to it's minimum. 
