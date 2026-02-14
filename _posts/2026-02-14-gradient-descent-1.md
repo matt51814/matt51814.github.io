@@ -3,7 +3,7 @@ title: "Gradient Descent"
 date: 2026-02-14 12:00:00 -100
 categories: [Gradient Descent, Deep Learning]
 tags: [Gradient Descent, Deep Learning, ML]
-mathjax: true
+math: true
 ---
 
 Gradient Descent is an optimisation algorithm that is widely used in Machine Learning and Deep Learning. I want to go through the different versions of Gradient Descent that are commonly used in Deep Learning and capture why some methods in particular have became go-tos.
